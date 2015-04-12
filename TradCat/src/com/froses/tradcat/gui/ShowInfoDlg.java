@@ -33,6 +33,13 @@ import javax.swing.event.HyperlinkEvent;
 import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLFrameHyperlinkEvent;
 
+/**
+ * <p>
+ * Just a dialog to show info in HTML format.
+ * </p>
+ * @author Francesc
+ *
+ */
 public class ShowInfoDlg extends JDialog {
 	private JPanel panButtons;
 	private JButton pbClose;
