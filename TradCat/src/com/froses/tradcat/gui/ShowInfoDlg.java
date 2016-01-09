@@ -35,7 +35,7 @@ import javax.swing.text.html.HTMLFrameHyperlinkEvent;
 
 /**
  * <p>
- * Just a dialog to show info in HTML format.
+ * Just a dialog to show info in HTML or RTF format.
  * </p>
  * @author Francesc
  *
@@ -47,6 +47,12 @@ public class ShowInfoDlg extends JDialog {
 	private JScrollPane spInfo;
 	private JEditorPane taInfo;
 	
+	/**
+	 * <p>
+	 * Sets current URL being displayed.
+	 * </p>
+	 * @param url <code>URL</code>: The URL of the page.
+	 */
 	public void setPage(URL url) {
 		try {
 			getTaInfo().setPage(url);
